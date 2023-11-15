@@ -91,7 +91,7 @@ body {
 
 .green-circle {
   border-radius: 20px;
-  background-color: green;
+  background-color: #28eea7;
   width: 20px;
   height: 20px;
 }
@@ -501,3 +501,68 @@ nav.dropbtn img {
 }
 
 /* milestones container section */
+
+.milestones-sub-container{
+  max-width: 1340px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:70px;
+  padding-right:70px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+
+}
+
+.milestones-content{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: stretch;
+  flex-grow: 1;
+
+}
+.milestones-content-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  flex-grow: 1;
+}
+.milestones-content-container-2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  flex-grow: 1;
+  padding-top: 50px;
+}
+
+.milestones-content-box-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  border-radius: 10px;
+  background-color: #f1f2f3;
+  margin: 20px;
+  padding:40px;
+  text-align:center;
+  flex-grow: 1;
+}
+
+.milestones-content-box-title{
+  color: #363738;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 900;
+}
+
+.milestones-content-box-subtitle{
+  color: #363738;
+  font-size: 64px;
+}
+
+.milestones-content-sub-box-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+}
