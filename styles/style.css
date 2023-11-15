@@ -352,7 +352,6 @@ nav.dropbtn img {
   .header-container {
     flex-basis: 0%;
     flex-direction: column;
-
     /* justify-content: flex-start; */
   }
 }
@@ -565,4 +564,29 @@ nav.dropbtn img {
   display: flex;
   flex-wrap: wrap;
   flex-direction:column;
+}
+
+/* program container section */
+
+.program-container{
+  background-color: rgb(255, 198, 53);
+  color: rgb(255, 198, 53);
+}
+
+.program-container-sub{
+  max-width: 1340px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:70px;
+  padding-right:70px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.program-div{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
