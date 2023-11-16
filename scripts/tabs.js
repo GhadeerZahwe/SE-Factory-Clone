@@ -16,4 +16,20 @@ function openTab(evt, programName) {
     evt.currentTarget.className += " active";
   };
   
- 
+  function changeColor(program,evt){
+    console.log(evt.currentTarget);
+      var change_program=document.getElementsByClassName("program-container");
+      if(program.classList.contains("yellow")){
+        change_program.item(0).style.backgroundColor="rgb(255, 198, 53)";
+        evt.currentTarget.style.color="rgb(255, 198, 53)";
+      } else if(program.classList.contains("green")){
+        change_program.item(0).style.backgroundColor="rgb(40, 238, 167)";
+        evt.currentTarget.style.color="rgb(40, 238, 167)";
+      } else if(program.classList.contains("purple")){
+        change_program.item(0).style.backgroundColor="rgb(152, 100, 218)";
+        evt.currentTarget.style.color="rgb(152, 100, 218)";
+      } else if(program.classList.contains("pink")){
+        change_program.item(0).style.backgroundColor="rgb(251, 80, 142)";
+        evt.currentTarget.style.color="rgb(251, 80, 142)";
+      }
+  };
