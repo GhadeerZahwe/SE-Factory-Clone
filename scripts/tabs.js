@@ -26,13 +26,12 @@ function openTab(evt, programName) {
 
 function changeColor(program) {
   var change_program = document.getElementsByClassName("program-container")[0];
-
   // Define color mappings based on classes
   var colorMap = {
-    "yellow": "rgb(255, 198, 53)",
-    "green": "rgb(40, 238, 167)",
-    "purple": "rgb(152, 100, 218)",
-    "pink": "rgb(251, 80, 142)"
+    yellow: "rgb(255, 198, 53)",
+    green: "rgb(40, 238, 167)",
+    purple: "rgb(152, 100, 218)",
+    pink: "rgb(251, 80, 142)",
   };
 
   // Check if the program class exists in the colorMap
