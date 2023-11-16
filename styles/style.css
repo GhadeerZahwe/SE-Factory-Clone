@@ -1012,6 +1012,7 @@ nav.dropbtn img {
   
 }
 
+/* partners container section */
 .partners-container{
   display:flex;
   flex-direction: column;
