@@ -1109,4 +1109,41 @@ nav.dropbtn img {
 
 /* footer container section */
 
+.footer-container{
+  background-color: #232323;
+  color:#a5a6a9;
+}
+
+.footer-sub-container{
+  max-width: 1340px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  display:flex;
+  justify-content: space-between;
+}
+
+.footer-content-column{
+  flex-direction: column;
+  display:flex;
+  justify-content: flex-end;
+
+}
+
+.footer-content-row{
+  flex-direction: row;
+  display:flex;
+  justify-content: space-between;
+}
+
+.footer-content-row a, .footer-content-row-copyright a{
+  text-decoration: none;
+  color: #a5a6a9;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 16px;
+}
 
