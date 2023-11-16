@@ -905,7 +905,8 @@ nav.dropbtn img {
   color:white;
   margin-top:50px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap:20px;
   flex-wrap: wrap;
 }
 
@@ -1011,6 +1012,68 @@ nav.dropbtn img {
   font-weight: 800;
   
 }
+
+
+.form-label {
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.form-input {
+    width: 20%;
+    height: 50px;
+    margin: 5px 0;
+    padding: 5px 15px;
+}
+
+.form-input::placeholder {
+    color: var(--silver-chalice);
+    font-family: "Noto Sans Mono", sans-serif;
+}
+
+.radio-group {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.radio-item {
+    margin: 5px 10px;
+}
+
+.radio-label {
+    font-size: 14px;
+}
+
+.textarea-inquiry {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.textarea-inquiry::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--silver-chalice);
+}
+
+.btn-submit {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+.btn-submit button{
+    padding: 10px;
+    color: var(--mine-shaft);
+    background-color: var(--main-green);
+    font-family: "Noto Sans Mono", sans-serif;
+    font-weight: 900;
+}
+
 
 /* partners container section */
 .partners-container{
@@ -1168,17 +1231,16 @@ nav.dropbtn img {
   color: #a5a6a9;
   font-size: 12px;
 }
-
 .footer-social-block{
-  align-self: center;
-  margin-top: 40px;
-  margin-left: -20px;
+    align-self: center;
+    margin-top: 40px;
+    margin-left: -20px;
 }
 
 .footer-social-block img{
-  width: 24px;
-  height: 24px;
-  background-color: #a5a6a9;
-  border-radius: 7px;
-  padding: 5px;
+    width: 24px;
+    height: 24px;
+    background-color: #a5a6a9;
+    border-radius: 7px;
+    padding: 5px;
 }

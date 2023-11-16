@@ -460,39 +460,39 @@
                     <div class="contact-sub-container-form">
                         <div>
                             <label for="fname">// first name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="First name">
+                            <input type="text" id="fname" name="firstname" placeholder="First name" class="form-input">
                         
                             <label for="lname">// last name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Last name">
+                            <input type="text" id="lname" name="lastname" placeholder="Last name" class="form-input">
                         </div>
                         <div>
                             <label for="email">// email name</label>
-                            <input type="email" id="email" name="firstname" placeholder="Email">
+                            <input type="email" id="email" name="firstname" placeholder="Email" class="form-input">
                         
                             <label for="pnumber">// phone number</label>
-                            <input type="text" id="pnumber" name="pnumber" placeholder="Phone number">
+                            <input type="text" id="pnumber" name="pnumber" placeholder="Phone number" class="form-input" >
                         </div>
                         <div>
                             <p>// what can we help you with?</p>
                             <div class="radio-form">
-                                  <input type="radio" id="FCS" name="radio" value="FCS">
-                                  <label for="FCS">FCS</label><br>
-                                  <input type="radio" id="FSW" name="radio" value="FSW">
-                                  <label for="FSW">FSW</label><br>
-                                  <input type="radio" id="UIX" name="radio" value="UIX">
-                                  <label for="UIX">UIX</label>
-                                  <input type="radio" id="Hire-talent" name="radio" value="Hire-talent">
-                                  <label for="Hire-talent">Hire Talent</label>
-                                  <input type="radio" id="Other" name="radio" value="Other">
+                                <input type="radio" id="FCS" name="radio" value="FCS" class="radio-input">
+                                <label for="FCS">FCS</label><br>
+                             <input type="radio" id="FSW" name="radio" value="FSW" class="radio-input">
+                                <label for="FSW">FSW</label><br>
+                                 <input type="radio" id="UIX" name="radio" value="UIX" class="radio-input">
+                                 <label for="UIX">UIX</label>
+                                 <input type="radio" id="Hire-talent" name="radio" value="Hire-talent" class="radio-input">
+                                 <label for="Hire-talent">Hire Talent</label>
+                             <input type="radio" id="Other" name="radio" value="Other" class="radio-input">
                                   <label for="Other">Other</label>
                             </div>
                         </div>
 
-                        <div>
-                            <label for="inquiry" class="field-label">// inquiry</label>
-                            <textarea class="form-text-area" placeholder="what can we help you with?" maxlength="5000" required=""></textarea>
+                        <p class="form-label">// inquiry</p>
+                        <div class="form-group">
+                            <textarea class="textarea-inquiry" placeholder="what can we help you with?" name="inquiry" id="inquiry" ></textarea>
                         </div>
-                        <input type="submit" value="Submit" data-wait="Please wait..." class="green-button">
+                        <input type="btn-submit" value="Submit" data-wait="Please wait..." class="green-button">
                     </div>
                 </div>
             </div>
@@ -623,6 +623,10 @@
             </div>
         </div>
     </section>
-    <script src="./scripts/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="./scripts/slideshow.js"></script>
+    <script src="./scripts/slideshowtext.js"></script>
+    <script src="./scripts/tabs.js"></script>
   </body>
 </html>
