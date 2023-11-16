@@ -1147,3 +1147,25 @@ nav.dropbtn img {
   line-height: 16px;
 }
 
+.footer-content-title{
+  color: #dcdee1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16px;
+}
+
+.footer-content-row-copyright{
+  flex-direction: row;
+  display:flex;
+  justify-content: space-between;
+  margin:70px 0px;
+}
+
+.footer-content-copyright{
+  color: #a5a6a9;
+  font-size: 12px;
+}
+
