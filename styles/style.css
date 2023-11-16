@@ -1052,4 +1052,60 @@ nav.dropbtn img {
   align-self: flex-end;
 }
 
+/* newsletter container section */
+.newsletter-container{
+  background-color: #363738;
+
+}
+
+.newsletter-sub-container{
+  display:flex;
+  flex-direction:row;
+  max-width: 1340px;
+  color:white;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.news-text-1{
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.news-text-2{
+  color: #a5a6a9;
+  text-align: left;
+  flex: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.news-input-1{
+  height: 45px;
+  margin-bottom: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.news-input-2{
+  height: 45px;
+  background-color: #232323;
+  flex: 1;
+  text-align: right;
+  line-height: inherit;
+  cursor: pointer;
+  color: #fcfcfd;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+
 
