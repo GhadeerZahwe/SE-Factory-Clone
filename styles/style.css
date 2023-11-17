@@ -1300,3 +1300,10 @@ label {
   margin-left: -20px;
 }
 
+.footer-social-block img {
+  width: 24px;
+  height: 24px;
+  background-color: #a5a6a9;
+  border-radius: 7px;
+  padding: 5px;
+}
