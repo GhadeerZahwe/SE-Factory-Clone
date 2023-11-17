@@ -2,5 +2,6 @@
 https://ghadeerzahwe.github.io/SE-Factory-Clone/
 
 
-![image](https://github.com/GhadeerZahwe/SE-Factory-Clone/assets/88279980/9d3bc7a7-1387-4976-afce-b51a10999fce)
+![image](https://github.com/GhadeerZahwe/SE-Factory-Clone/assets/88279980/f68fc037-84f7-476d-bae2-5780a4e7f261)
+
 
